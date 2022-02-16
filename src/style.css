@@ -1,0 +1,36 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'font-awesome/css/font-awesome.min.css';
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.app-title {
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+.form-body {
+  padding: 15px;
+}
+.form {
+  padding: 15px;
+}
+.form-label {
+  font-weight: 600;
+  font-size: 14px;
+}
+.form-control {
+  font-size: 14px;
+}
+.form-title {
+  background-color: rgb(65, 4, 4);
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.mr5 {
+  margin-right: 5px;
+}
