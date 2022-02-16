@@ -10,8 +10,7 @@ export default function App() {
   const addDataHandler = (data) => {
     setExpensesData((prevData) => [
       ...prevData,
-      data,
-      { id: Math.random().toString() },
+      data, // { id: Math.random().toString() },
     ]);
   };
   return (
